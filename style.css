@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Young Serif', sans-serif;
+  margin: 1rem 0;
+  font-weight: 400;
+  font-size: 1.95rem;
+  color: #373737;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Young Serif', sans-serif;
+  margin: 1rem 0;
+  color: #83483d;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+body {
+  min-height: 100dvh;
+  background-color: #f3e5d8;
+  padding: 1rem;
+  place-content: center;
+  font-family: 'Outfit', sans-serif;
+  min-width: 375px;
+}
+
+p,
+li {
+  color: #71706e;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 1.25rem;
+  border-radius: 1rem;
+
+  img {
+    max-width: 100%;
+    border-radius: .5rem;
+  }
+
+  .list-description {
+    margin-left: 1rem;
+  }
+
+  .preparation {
+    margin-top: 1rem;
+    background-color: #fff7fc;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+
+    h3 {
+      font-family: 'Outfit', sans-serif;
+      color: #605752;
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+
+    ul {
+      padding: 0 1.5rem;
+
+      li {
+        margin: 1rem 0;
+      }
+
+      span {
+        color: #605752;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .ingredients {
+
+    ul {
+      padding: 0 1.5rem;
+
+      li {
+        margin: 1rem 0;
+      }
+    }
+  }
+
+  hr {
+    border: none;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    margin: 2rem 0;
+  }
+
+  .instructions {
+
+    ol {
+      list-style: decimal;
+      padding: 0 1.5rem;
+
+      li {
+        margin: 1rem 0;
+      }
+
+      li::marker {
+        color: #83483d;
+        font-weight: 700;
+      }
+
+      span {
+        color: #605752;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .nutrition {
+
+    #nutrition-description {
+      margin-bottom: .5rem;
+    }
+
+    .category {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+
+      p {
+        width: 50%;
+      }
+
+      .values {
+        color: #83483d;
+        font-weight: 700;
+      }
+    }
+
+    hr {
+      margin: 0;
+    }
+  }
+}
+
+footer .attribution {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+@media screen and (width > 600px) {
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  main {
+    padding: 2.5rem;
+
+    .preparation {
+      padding: 1rem 2rem;
+    }
+  }
+
+
+}
